@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Gilzoide.FlexUi.Yoga</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputPath>..\lib\</OutputPath>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\unity-flex-ui\Runtime\Yoga\Enums.cs" Link="Enums.cs" />
+    <Compile Include="..\unity-flex-ui\Runtime\Yoga\YGConfig.cs" Link="YGConfig.cs" />
+    <Compile Include="..\unity-flex-ui\Runtime\Yoga\YGNode.cs" Link="YGNode.cs" />
+    <Compile Include="..\unity-flex-ui\Runtime\Yoga\YGValue.cs" Link="YGValue.cs" />
+    <Compile Include="..\unity-flex-ui\Runtime\Yoga\Yoga.cs" Link="Yoga.cs" />
+  </ItemGroup>
+
+</Project>
