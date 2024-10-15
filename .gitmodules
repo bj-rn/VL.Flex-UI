@@ -1,0 +1,4 @@
+[submodule "unity-flex-ui"]
+	path = unity-flex-ui
+	url = https://github.com/bj-rn/unity-flex-ui.git
+	branch = main-vvvv
