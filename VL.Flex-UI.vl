@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="AqkCS0pTfwvMFiOZpakQkJ" LanguageVersion="2024.6.7-0160-g2e7a1296d2" Version="0.128">
+  <NugetDependency Id="LZ8tW3lNUchLqZ4Ggp48Vr" Location="VL.CoreLib" Version="2024.6.7-0160-g2e7a1296d2" />
+  <Patch Id="C4NOo2RFnGJOCJKSXGkUZ5">
+    <Canvas Id="TaK2NYfbDHuQY9rkRRyjL0" DefaultCategory="Flex-UI" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="EUo0LsSL4u9Pmgvn2dlzGO">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="NELClGLcRwPQW3kji9E3YJ">
+        <Canvas Id="B3hMCjIoR4WPJuXTEYvZnC" CanvasType="Group">
+          <Node Bounds="550,184,549,468" Id="PRI8mH47fGLPchvM8fZrwf">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ProcessStatefulRegion" Name="Cache" />
+            </p:NodeReference>
+            <Pin Id="JhFaNodBo8bMXLCb33ZybG" Name="Force" Kind="InputPin" />
+            <Pin Id="NIYjl0zgkaBMhGHXGCd2yX" Name="Dispose Cached Outputs" Kind="InputPin" />
+            <Pin Id="UKF78mvTvB3NkrliVy9l3Q" Name="Has Changed" Kind="OutputPin" />
+            <Patch Id="EJoxmZbpuukNM6sfXkYPai" ManuallySortedPins="true">
+              <Patch Id="QSiE7TsIYQtMRtqG6U77r2" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="NP0TUAJGetMO98EVyss6bc" Name="Then" ManuallySortedPins="true" />
+              <Node Bounds="567,228,64,26" Id="NmiRmWzC1lhMWgLztri1Fy">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="YGNode" />
+                  <Choice Kind="OperationCallFlag" Name="Instantiate" />
+                </p:NodeReference>
+                <Pin Id="TbHduR1mLx5Llieg6OeQlS" Name="Input" Kind="StateInputPin" />
+                <Pin Id="VUU5lX2LHNdMqMEhtyDa8m" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Node Bounds="565,420,66,26" Id="NS1T9urvpzUO11faWgPQKq">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="InsertChild" />
+                </p:NodeReference>
+                <Pin Id="SVib6z1H0HSM4nvGcQ2F2v" Name="Input" Kind="StateInputPin" />
+                <Pin Id="BLmGTxBHoVeM2JQl1ZTvxW" Name="Child" Kind="InputPin" />
+                <Pin Id="K5aCQdQS4bGPHozbUMVnNs" Name="Index" Kind="InputPin" />
+                <Pin Id="Esucbqzp9UOQMZ3sdSdBvR" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="MPtYxMFHu0gLoTU6Uukv7l" Name="Result" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="564,502,66,26" Id="FE1PB7KjxfhP7pQyWFzqSh">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="InsertChild" />
+                </p:NodeReference>
+                <Pin Id="Ez1FMicjqXsPOz3niYRFJu" Name="Input" Kind="StateInputPin" />
+                <Pin Id="VuLWiDPAlr0PcTS4nW2rJs" Name="Child" Kind="InputPin" />
+                <Pin Id="NBYLHBsBF7XNRMjW2xx2ti" Name="Index" Kind="InputPin" DefaultValue="1" />
+                <Pin Id="JJoQxiqzTQYM5tPoUXTeMR" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="NC6jPfZjhxIM4xBAcRnFp8" Name="Result" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="716,207,64,26" Id="VODtfAYIl6hNx5EgGQCtQC">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="YGNode" />
+                  <Choice Kind="OperationCallFlag" Name="Instantiate" />
+                </p:NodeReference>
+                <Pin Id="L3PVkAGYYPrP6vDh2mLfiq" Name="Input" Kind="StateInputPin" />
+                <Pin Id="VF4lYH9NRINQIumPQv1UU9" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Node Bounds="714,296,77,26" Id="Mv0c9ridgbrL2SRsbHsdIV">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StyleSetWidth" />
+                  <PinReference Kind="InputPin" Name="Width" />
+                </p:NodeReference>
+                <Pin Id="QWME6f3yU7nLlxZ20rLGk8" Name="Input" Kind="StateInputPin" />
+                <Pin Id="QhY5rAwmFM3OQyE9AHUK8E" Name="Width" Kind="InputPin" DefaultValue="50" />
+                <Pin Id="NUJdFs5GEjfL939pbL1yrd" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="BTRIx24xWSgNHCZIduleeV" Bounds="628,473,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="P6ORqkMsynxPWgjhFwbhjg" Comment="Width" Bounds="790,267,35,15" ShowValueBox="true" isIOBox="true" Value="200">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="712,389,81,26" Id="Bhq0OMlDB54Pq45cN24xym">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StyleSetHeight" />
+                  <PinReference Kind="InputPin" Name="Height" />
+                </p:NodeReference>
+                <Pin Id="AvqPY9zisS7NOacSnvadn9" Name="Input" Kind="StateInputPin" />
+                <Pin Id="TnLoIM23gGmLzEgbKjDsJW" Name="Height" Kind="InputPin" />
+                <Pin Id="KAb0AHwuwDWNS66FSssgyo" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="HLtMJhsIWNrPiye3e4aEpG" Comment="Height" Bounds="792,369,49,15" ShowValueBox="true" isIOBox="true" Value="500">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="919,273,64,26" Id="IBNfh8ZONf5LnEMFDsyRJk">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="YGNode" />
+                  <Choice Kind="OperationCallFlag" Name="Instantiate" />
+                </p:NodeReference>
+                <Pin Id="Q03orbxrUxBP1Y1Hcsekno" Name="Input" Kind="StateInputPin" />
+                <Pin Id="VRFRAgin2U1OsJ6N71wmzh" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Node Bounds="919,342,77,26" Id="Rr0i5MlpukVQUnjDOGQ5Ei">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StyleSetWidth" />
+                  <PinReference Kind="InputPin" Name="Width" />
+                </p:NodeReference>
+                <Pin Id="Fp6LaTek1AOPQYkddmqYOb" Name="Input" Kind="StateInputPin" />
+                <Pin Id="M7RIc43RFV7LMMQeX5Fbyi" Name="Width" Kind="InputPin" DefaultValue="50" />
+                <Pin Id="PnkQb2rMEL8Pyw1K4zCse9" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="DGawXnGauRALGwZYJ3CUHM" Comment="Width" Bounds="993,322,35,15" ShowValueBox="true" isIOBox="true" Value="75">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="919,418,81,26" Id="PuDJBuTp1OpNHOB5YLPUaI">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StyleSetHeight" />
+                  <PinReference Kind="InputPin" Name="Height" />
+                </p:NodeReference>
+                <Pin Id="HxH0t4mWwv4M7z0MzXUw5D" Name="Input" Kind="StateInputPin" />
+                <Pin Id="SHcGNpdXBUtOhGZbvB9iUQ" Name="Height" Kind="InputPin" />
+                <Pin Id="Eb5ylowhpaaOViBM1dIvBl" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="Co2jI6H7MRjOyXF31GjbZZ" Comment="Height" Bounds="1000,403,35,15" ShowValueBox="true" isIOBox="true" Value="50">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="562,583,88,26" Id="PrJ6AL4r9jZMc28sspeAHw">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="CalculateLayout" />
+                </p:NodeReference>
+                <Pin Id="OKTF23deRMePXHT0Wci6vx" Name="Input" Kind="StateInputPin" />
+                <Pin Id="TC8cbAuHKXiMf222atDH5Z" Name="Available Width" Kind="InputPin" DefaultValue="0" />
+                <Pin Id="SiN9KJprsKRPBpwTRLo8PE" Name="Available Height" Kind="InputPin" />
+                <Pin Id="HB1wpiygqrXPdljDBiQhzN" Name="Owner Direction" Kind="InputPin" />
+                <Pin Id="QKtuuckHmwLOcuFvVnEw9a" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Node Bounds="566,277,99,26" Id="BxpX5owawCjLWSadDZ2zxq">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StyleSetWidthAuto" />
+                </p:NodeReference>
+                <Pin Id="TIof2tdHFJKMnKfbLbrLHu" Name="Input" Kind="StateInputPin" />
+                <Pin Id="CaGs9rzfqWwP5X9ShppfJU" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Node Bounds="566,325,103,26" Id="OsQmuvOFCQNPOk5ySTsJ4p">
+                <p:NodeReference LastCategoryFullName="Gilzoide.FlexUi.Yoga.YGNode" LastDependency="VL.Flex-UI.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StyleSetHeightAuto" />
+                </p:NodeReference>
+                <Pin Id="SU7LqIuTkWcNnzIeLVHu3v" Name="Input" Kind="StateInputPin" />
+                <Pin Id="CzJT69747QzOHeDyiOGZBT" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="KMTkzplacf7MYEUyP255xE" Comment="" Bounds="674,462,35,35" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="LERRoS3VRELQLyjfrnEZan" Comment="" Bounds="663,564,35,35" ShowValueBox="true" isIOBox="true" />
+            </Patch>
+            <ControlPoint Id="M1Cu0qTYzRrMPsXKhSuGU8" Bounds="564,646" Alignment="Bottom" />
+          </Node>
+          <Pad Id="TveGfUpXyedNrnwa0GknL4" Comment="Force" Bounds="556,134,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="LcAPXLKZJ3dMqKs9WrmwUG" Name="Create" />
+        <Patch Id="Pgdfarvvfj1O2Wln1W7luP" Name="Update" />
+        <ProcessDefinition Id="FhowMqxaj8wM8AXaflh6W4">
+          <Fragment Id="VpFGRJGrRcNQKQbIh2vc5W" Patch="LcAPXLKZJ3dMqKs9WrmwUG" Enabled="true" />
+          <Fragment Id="GiVYZYVPh4gOUdCMQsAkjF" Patch="Pgdfarvvfj1O2Wln1W7luP" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="AzSc1z4Oo81OQue84kUOPK" Ids="JJoQxiqzTQYM5tPoUXTeMR,OKTF23deRMePXHT0Wci6vx" />
+        <Link Id="FWFHTWfk5llOEZv9KE48KK" Ids="VUU5lX2LHNdMqMEhtyDa8m,TIof2tdHFJKMnKfbLbrLHu" />
+        <Link Id="HDcG8xNSprcNh3DuB14GbE" Ids="Esucbqzp9UOQMZ3sdSdBvR,Ez1FMicjqXsPOz3niYRFJu" />
+        <Link Id="Fa4YvunuHI0P6pq5jgXYBH" Ids="VF4lYH9NRINQIumPQv1UU9,QWME6f3yU7nLlxZ20rLGk8" />
+        <Link Id="UB3AShUqcfIMctgqAbEKKG" Ids="BTRIx24xWSgNHCZIduleeV,NBYLHBsBF7XNRMjW2xx2ti" />
+        <Link Id="USixtkGj2gvPlNCD0l0k4Z" Ids="P6ORqkMsynxPWgjhFwbhjg,QhY5rAwmFM3OQyE9AHUK8E" />
+        <Link Id="EWP1JBHrpUWOFLYU75NXOR" Ids="NUJdFs5GEjfL939pbL1yrd,AvqPY9zisS7NOacSnvadn9" />
+        <Link Id="VBdm5k1hpO6NuwH5HNrpuL" Ids="HLtMJhsIWNrPiye3e4aEpG,TnLoIM23gGmLzEgbKjDsJW" />
+        <Link Id="LSMjsjNNQ3wPvsDqlKJrxl" Ids="VRFRAgin2U1OsJ6N71wmzh,Fp6LaTek1AOPQYkddmqYOb" />
+        <Link Id="U7vJGtDZKJxOnKX06R4mbk" Ids="DGawXnGauRALGwZYJ3CUHM,M7RIc43RFV7LMMQeX5Fbyi" />
+        <Link Id="AfX5WAsbnoTN9Li20fC7t5" Ids="PnkQb2rMEL8Pyw1K4zCse9,HxH0t4mWwv4M7z0MzXUw5D" />
+        <Link Id="K3tpx7QlensL4rQNfDN4po" Ids="Co2jI6H7MRjOyXF31GjbZZ,SHcGNpdXBUtOhGZbvB9iUQ" />
+        <Link Id="FugWMjcrAZwMDD2AI7mP7D" Ids="KAb0AHwuwDWNS66FSssgyo,BLmGTxBHoVeM2JQl1ZTvxW" />
+        <Link Id="ON8SvOLjohWQKVz8Ykacr8" Ids="Eb5ylowhpaaOViBM1dIvBl,VuLWiDPAlr0PcTS4nW2rJs" />
+        <Link Id="VGN6OK0wBeCLZoGCwiFBtl" Ids="QKtuuckHmwLOcuFvVnEw9a,M1Cu0qTYzRrMPsXKhSuGU8" />
+        <Link Id="BAkAfbok3CqMw6NbUPJ0Oi" Ids="TveGfUpXyedNrnwa0GknL4,JhFaNodBo8bMXLCb33ZybG" />
+        <Link Id="CHIWWE2ykDoOXcwvte6teG" Ids="CaGs9rzfqWwP5X9ShppfJU,SU7LqIuTkWcNnzIeLVHu3v" />
+        <Link Id="H8OkRKOEORyLHOElK1VDSV" Ids="CzJT69747QzOHeDyiOGZBT,SVib6z1H0HSM4nvGcQ2F2v" />
+        <Link Id="DbyGoC8VeYoNtbfVqsBxGs" Ids="MPtYxMFHu0gLoTU6Uukv7l,KMTkzplacf7MYEUyP255xE" />
+        <Link Id="OWGrvBhe5EqQB2fDm3CJ9b" Ids="NC6jPfZjhxIM4xBAcRnFp8,LERRoS3VRELQLyjfrnEZan" />
+      </Patch>
+    </Node>
+  </Patch>
+  <PlatformDependency Id="VDlLnieGfMtNHW9ocRs0y0" Location="./lib/net8.0-windows/VL.Flex-UI.dll" />
+</Document>
